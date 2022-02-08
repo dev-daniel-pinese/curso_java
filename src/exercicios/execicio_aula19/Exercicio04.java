@@ -14,12 +14,12 @@ public class Exercicio04 {
             vetorB[i] = (int) Math.sqrt(vetorA[i]);
         }
         System.out.println("vetor a");
-        for (int i=0; i< vetorA.length; i++){
-            System.out.print(vetorA[i]+" ");
+        for (int i = 0; i < vetorA.length; i++) {
+            System.out.print(vetorA[i] + " ");
         }
         System.out.println("vetor b");
-        for (int i=0; i< vetorA.length; i++){
-            System.out.print(vetorB[i]+" ");
+        for (int i = 0; i < vetorA.length; i++) {
+            System.out.print(vetorB[i] + " ");
         }
     }
 }

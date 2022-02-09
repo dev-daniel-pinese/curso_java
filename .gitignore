@@ -1,37 +1,37 @@
-# Abrange IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
-# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Coisas específicas do usuário
-.idea / ** / workspace.xml
-.idea / ** / tasks.xml
-.idea / ** / usage.statistics.xml
-.idea / ** / dicionários
-.idea / ** / prateleira
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Específico do usuário da AWS
-.idea / ** / aws.xml
+# AWS User-specific
+.idea/**/aws.xml
 
-# Arquivos gerados
-.idea / ** / contentModel.xml
+# Generated files
+.idea/**/contentModel.xml
 
-# Arquivos sensíveis ou de alta rotatividade
-.idea / ** / dataSources /
-.idea / ** / dataSources.ids
-.idea / ** / dataSources.local.xml
-.idea / ** / sqlDataSources.xml
-.idea / ** / dynamic.xml
-.idea / ** / uiDesigner.xml
-.idea / ** / dbnavigator.xml
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Grade
-.idea / ** /gradle.xml _
-.idea / ** / bibliotecas
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-# Gradle e Maven com importação automática
-# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
-# já que eles serão recriados e podem causar churn. Descomente se estiver usando
-# importação automática.
-# .ideia/artefatos
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
@@ -40,38 +40,38 @@
 # *.iml
 # *.ipr
 
-#CMake _
-cmake-build- * /
+# CMake
+cmake-build-*/
 
-# Plugin Mongo Explorer
-.idea / ** /mongoSettings.xml _
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Formato de projeto baseado em arquivo
-* .iws
+# File-based project format
+*.iws
 
-#IntelliJ _
-fora /
+# IntelliJ
+out/
 
-# plugin mpeltonen/sbt-idea
-.idea_modules /
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# plugin JIRA
+# JIRA plugin
 atlassian-ide-plugin.xml
 
-# Plugin Cursive Clojure
-.idea / replstate.xml
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# Plugin SonarLint
-.idea / sonarlint /
+# SonarLint plugin
+.idea/sonarlint/
 
-# Plugin Crashlytics (para Android Studio e IntelliJ)
+# Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
-propriedades do crashlytics
+crashlytics.properties
 crashlytics-build.properties
-tecido.propriedades
+fabric.properties
 
-# Cliente Rest baseado em Editor
-.idea / httpRequests
+# Editor-based Rest Client
+.idea/httpRequests
 
-# Arquivo de cache serializado do Android studio 3.1+
-.idea / caches / build_file_checksums.ser
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser

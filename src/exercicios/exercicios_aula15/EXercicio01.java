@@ -13,7 +13,6 @@ public class EXercicio01 {
             if (n2 > n1){
                 System.out.println("esse é o maior numero "+ n2);
             }
-
         }
     }
 }

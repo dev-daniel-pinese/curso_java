@@ -9,13 +9,21 @@ public class Exercicio12 {
         double qtdhoras = scan.nextDouble();
         double salaribruto = valorhora*qtdhoras;
         int percen =0;
+        //se salario bruto fpr menor ou iqual
         if (salaribruto <= 900){
+        //e o percentual recebe 0
             percen = 0;
+            //se nao se salario bruto maior ou iqual 900 e salario bruto menor que 1500
         }else if (salaribruto > 900 && salaribruto <= 1500){
+            //percent recebe 5
             percen =5;
+            //se nao se salario bruto for maior 1500 e salario bruto menor ou iqual 2500
         }else if (salaribruto > 1500 && salaribruto <= 2500){
+            //percent recebe 10
             percen = 10;
+            //se salario bruto 2500
         }else if (salaribruto >  2500) {
+            //percent recebe 20
             percen = 20;
         }
         double ir = (salaribruto/100)* percen;

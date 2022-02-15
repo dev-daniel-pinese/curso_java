@@ -14,14 +14,20 @@ public class Exercicio22 {
         double precomaca = 0;
         double valortotal = 0;
         double valorConDesc = 0;
+        //if se morango for maior ou iqual a 5
         if (morango <= 5) {
+            //precomorango recebe morango * 2.5
             precomorango = morango * 2.5;
         } else {
+            //se nao precomorango recebe morango * 2.5
             precomorango = morango * 2.2;
         }
+        //if se maca for maior ou iqual a 5
         if (maca <= 5) {
+            //se nao maca recebe morango * 1.8
             precomaca = maca * 1.8;
         } else {
+            //se nao maca recebe morango * 1.5
             precomaca = maca * 1.5;
         }
         valortotal = precomaca + precomorango;

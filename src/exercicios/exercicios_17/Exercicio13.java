@@ -12,7 +12,9 @@ public class Exercicio13 {
 
 
         int resutado = base;
+        //o for vai percorrer o pot
         for (int i=0; i<=pot; i++){
+            //resultado vai receber vezes a base
             resutado *=base;
 
         }

@@ -10,6 +10,7 @@ public class Exercicio09 {
         double[] vetorC = new double[vetorA.length];
 
         System.out.println("valores vetor A:");
+        //o for vai percorrer o vetorA
         for (int i = 0; i< vetorA.length; i++){
             System.out.print(" ,");
             vetorA[i] = scan.nextInt();
@@ -17,6 +18,7 @@ public class Exercicio09 {
 
         System.out.println();
         System.out.println("valores vetor B:" );
+        //o for vai percorrer o vetorA para aparecer
         for (int i=0 ; i< vetorA.length;i++){
 
             vetorB[i] = scan.nextInt();

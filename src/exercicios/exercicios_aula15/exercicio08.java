@@ -9,15 +9,19 @@ public class exercicio08 {
         int n2 = scan.nextInt();
         int n3 = scan.nextInt();
 
-
+         //se n1 menor n2 e n1 menor que n3
             if (n1 < n2 && n1<n3){
         System.out.println("o menor preco é "+ n1);
+        //se nao
     }else {
+            //se n2 menor n1 e n2 menor que n3
         if (n2 < n1 && n2 < n3) {
             System.out.println("o menor preco é " + n2);
+            //se nao
         } else {
 
         }
+        //se n3 menor n2 e n3 menor que n1
         if (n3 < n2 && n3 < n1)
             System.out.println("o menor preco é " + n3);
     }

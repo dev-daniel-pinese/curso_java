@@ -11,6 +11,7 @@ public class Exercicio32 {
         double total = 0;
         String output = "";
         System.out.println("faca seu pedido:");
+        //do esse comando execulta o bloco dentro do comando e depois avalia a expressao
         do {
             System.out.println("digite o codigo ");
             cod = scan.nextInt();
@@ -45,6 +46,7 @@ public class Exercicio32 {
                     total += 1 * qtd;
                 }
             }
+            //se o fim for diverente de false
         }   while (!fim) ;
         System.out.println(output);
         }

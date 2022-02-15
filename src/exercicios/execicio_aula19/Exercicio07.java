@@ -8,7 +8,7 @@ public class Exercicio07 {
         int[] vetorA = new int[5];
         int[] vetorB = new int[vetorA.length];
         int[] vetorC = new int[vetorA.length];
-
+        //o for vai percorrer o vetorA
         for (int i =0; i< vetorA.length; i++){
             System.out.println("entre com a posicao");
             vetorA[i] = scan.nextInt();
@@ -18,6 +18,7 @@ public class Exercicio07 {
         }
         System.out.println();
         System.out.println("vator A");
+        //o for vai percorrer o vetorA para aparecer
         for (int i = 0; i< vetorA.length; i++){
             System.out.println(vetorA[i]);
         }

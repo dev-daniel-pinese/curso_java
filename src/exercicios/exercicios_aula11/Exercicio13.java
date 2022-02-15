@@ -7,6 +7,7 @@ public class Exercicio13 {
         Scanner scan = new Scanner(System.in);
         double cent;
         double metro = scan.nextDouble();
+        //centimetros vai receber metros * 100
         cent = metro * 100;
         System.out.println(cent+" centimetros ");
     }

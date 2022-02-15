@@ -13,6 +13,7 @@ public class Exercicio31 {
         slario += (slario/ 100)* percentual;
 
         DecimalFormat format = new DecimalFormat("###,###.###");
+        //for vai percorre o 2015
         for (int i =1997; i <=2015; i++){
             percentual *= 2;
             slario += (slario/100)* percentual;

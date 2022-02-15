@@ -11,7 +11,7 @@ public class Exercicio16 {
         int primeiro =1;
         int segundo = 1;
         int proximo=0;
-
+        //while se o progarama for verdadeiro execulta o bloco
         while (proximo <= 500) {
             proximo = primeiro + segundo;
             primeiro = segundo;

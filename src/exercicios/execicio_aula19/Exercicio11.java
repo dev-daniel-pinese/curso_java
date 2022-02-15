@@ -13,7 +13,7 @@ public class Exercicio11 {
             vetorA[i] = scan.nextInt();
             //vai verificar se é par
             if (vetorA[i] % 2 == 0){
-                //vai contar a quantidade de pares
+                //vai contar a quantidade de pares-
                 cont++;
             }
             System.out.println("o numero pares é "+ cont);

@@ -15,7 +15,7 @@ public class Exercicio17 {
 
         int qtd =0;
         for (int i=0; i< vetorA.length; i++){
-            //vai ver se o vetor A na posicao i  é maior que 35
+            //vai ver se o vetorA na posicao i  é maior que 35
             if (vetorA[i] > 35){
                 //vai somar os valores-
                 qtd++;

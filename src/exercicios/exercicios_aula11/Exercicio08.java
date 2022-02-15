@@ -7,6 +7,7 @@ public class Exercicio08 {
         Scanner scan = new Scanner(System.in);
         double valorhora= scan.nextDouble();
         double horames = scan.nextDouble();
+        //a sala vai receber o valor da hora * horas mes
         double sala= valorhora* horames;
         System.out.println("o seu salario é "+ sala);
 

@@ -8,6 +8,7 @@ public class Exercicio14 {
         double tamanho = scan.nextDouble();
         double velocidade = scan.nextDouble();
         double downlod;
+        //o downlod recebe tamanho / veloidade
         downlod = tamanho/velocidade;
         System.out.println(downlod);
     }

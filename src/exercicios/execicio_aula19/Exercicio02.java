@@ -7,13 +7,14 @@ public class Exercicio02 {
         Scanner scan = new Scanner(System.in);
         int[]vetorA = new int[8];
         int[]vetorb = new int[vetorA.length];
-
+        //o for vai percorrer o vetorA
         for (int i = 0 ; i< vetorA.length; i++){
             System.out.println("entre com o valor da posicao: "+i);
             vetorA[i] = scan.nextInt();
             vetorb[i] = (vetorA[i]*2);
 
         }
+        //o for vai percorrer o vetorA para aparecer
         for(int i=0; i< vetorA.length;i++){
             System.out.print(vetorA[i]+" ");
         }

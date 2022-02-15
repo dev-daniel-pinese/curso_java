@@ -14,16 +14,18 @@ public class Exercicio25 {
         String output;
         double valorapagar;
         double troco;
-
+        //do esse comando execulta o bloco dentro do comando e depois avalia
         do {
             System.out.println("deseja imformar uma nova compra?s/n");
             continuarcompra = scan.next();
+            //se continuar compra se o resultado for s
             if (continuarcompra.equalsIgnoreCase("s")) {
 
                 output="lojas tabajara/n";
                 System.out.println("digite quantidade de produto");
                 qtdprodutos = scan.nextInt();
                 total=0;
+                //o for vai percorrer o qtdprodutos
                 for (int i=1; i<= qtdprodutos;i++){
                     System.out.println("imformen preco do produtos "+ i);
                     preco = scan.nextDouble();
@@ -45,7 +47,7 @@ public class Exercicio25 {
             }else {
                 sair =true;
             }
-
+        //while se o resultado for diferente de false
         }while (!sair);
     }
 }

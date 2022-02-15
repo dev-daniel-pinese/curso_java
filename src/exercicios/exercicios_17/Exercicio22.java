@@ -8,6 +8,7 @@ public class Exercicio22 {
         int cds= scan.nextInt();
         double preco;
         double soma =0;
+        //o for vai percorrer o cds
         for (int i = 1; i<=cds;i++){
             System.out.println("informe o valor do cd "+i);
             preco = scan.nextDouble();

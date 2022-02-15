@@ -10,23 +10,31 @@ public class Exercicio5 {
         double popB ;
         double taxaA;
         double taxab;
+        //o do vai executa o bloco dentro do comando e depois avalia a espressao.
+        // o bloco deixa de ser executado apos a expressao fica falsa
         do {
             System.out.println("entre com a populacao A:");
             popA = scan.nextDouble();
+            //se a popA for maior que 0
             if (popA > 0){
                 valido = true;
             }else {
                 System.out.println("populacao a precisa ser maior que 0.");
             }
+            //o while caso verdadeira executa o bloco
         }while (!valido);
+        //o do vai executa o bloco dentro do comando e depois avalia a espressao.
+        // o bloco deixa de ser executado apos a expressao fica falsa
         do {
             System.out.println("entre com a populacao B:");
             popB = scan.nextDouble();
+            //se a popb for maior que 0
             if (popB > 0){
                 valido = true;
             }else {
                 System.out.println("populacao B precisa ser maior que 0.");
             }
+            //o while caso verdadeira executa o bloco
         }while (!valido);
         do {
             System.out.println("entre com a taxa A:");
@@ -36,8 +44,10 @@ public class Exercicio5 {
             }else {
                 System.out.println("a taxa precisa ser maior que 0.");
             }
+            //o while caso verdadeira executa o bloco
         }while (!valido);
-
+        //o do vai executa o bloco dentro do comando e depois avalia a espressao.
+        // o bloco deixa de ser executado apos a expressao fica falsa
         do {
             System.out.println("entre com a taxa b:");
             taxab = scan.nextDouble();
@@ -46,6 +56,7 @@ public class Exercicio5 {
             }else {
                 System.out.println("a taxa B precisa ser maior que 0.");
             }
+            //o while caso verdadeira executa o bloco
         }while (!valido);
 
 
@@ -53,6 +64,7 @@ public class Exercicio5 {
 
 
         int cont = 0;
+        //o while caso verdadeira executa o bloco
     while (popA < popB) {
             popA += (popA / 100) *taxaA;
             popB += (popB / 100)*taxab;

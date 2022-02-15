@@ -20,7 +20,7 @@ public class Aula19 {
         System.out.println("o valor da temperatura do dia 1 é " +temperaturas[0]);
         System.out.println("o tamanho do array: "+ temperaturas.length);
         System.out.println("valores de array: "+ temperaturas);
-
+        //o for vai percorrer o tmperaturas
         for (int i =0; i<temperaturas.length;i++){
             System.out.println("o valor da temperatura do dia "+ (i+1)+ " é "+ temperaturas[i]);
         }

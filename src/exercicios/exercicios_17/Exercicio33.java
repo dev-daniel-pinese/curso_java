@@ -7,6 +7,7 @@ public class Exercicio33 {
         Scanner scan = new Scanner(System.in);
         System.out.println("digite o valor de n");
         int n = scan.nextInt();
+        //for vai percorrer o i e o j
         for (int i= 1, j= 1;i<=n;i++ ,j+=2){
             System.out.println(i+ "/"+ j +"+");
 

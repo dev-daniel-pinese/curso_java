@@ -6,6 +6,7 @@ public class Exercicio17 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int ano = scan.nextInt();
+        //se ano com porcentagen de 400 iqual a 0 ou ano porcentagen iqual a 0 e ano porcentagen 100 diferente de 0
         if ((ano % 400 == 0 || ano% 4 == 0 && ano % 100 !=0)){
             System.out.println("e bissesto");
         }else {

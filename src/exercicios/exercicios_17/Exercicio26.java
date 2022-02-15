@@ -11,6 +11,7 @@ public class Exercicio26 {
         System.out.println(num+ "! =");
 
         int fatorial =1;
+        //o for vai percorrer se for maior que 1
         for (int i= num; i>1; i--){
             fatorial *= i;
             System.out.print(i + " . ");

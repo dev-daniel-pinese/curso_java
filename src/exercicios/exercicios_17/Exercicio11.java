@@ -10,6 +10,7 @@ public class Exercicio11 {
         System.out.println("entre com o segundo numero");
         int n2 = scan.nextInt();
         int soma = 0;
+        //o for vai percorrer o n2
         for (int i = n1; i <= n2; i++) {
                 soma += i;
         }

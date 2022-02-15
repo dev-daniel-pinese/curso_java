@@ -8,7 +8,7 @@ public class Exercicio08 {
         int num;
         int soma=0;
         int media;
-
+        //o for vai percorrer o 5
         for (int i = 0; i<5; i++){
             System.out.println("digite um numero");
             num = scan.nextInt();

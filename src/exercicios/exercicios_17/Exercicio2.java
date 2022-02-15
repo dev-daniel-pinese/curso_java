@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exercicio2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        //o do vai executa o bloco dentro do comando e depois avalia a espressao.
+        // o bloco deixa de ser executado apos a expressao fica falsa
+        //o while caso verdadeira executa o bloco
         boolean infovalidas= false;
         do{
             System.out.println("entre com o nome do usuario");
@@ -18,7 +21,7 @@ public class Exercicio2 {
                 infovalidas=true;
                 System.out.println("senha e usuario valido");
             }
-
+            //o while caso verdadeira executa o bloco
         }while (!infovalidas);
     }
 }

@@ -11,7 +11,7 @@ public class Exercicio19 {
         double som= 0;
         double media;
         double nota;
-
+        //o for vai percorrer o notas
         for (int i=0; i<notas;i++){
             System.out.println("entre com a nota "+ (i+1));
             nota = scan.nextDouble();

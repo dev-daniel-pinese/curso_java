@@ -9,6 +9,7 @@ public class Exercicio10 {
         int n1 = scan.nextInt();
         System.out.println("entre com o segundo numero");
         int n2 = scan.nextInt();
+        //o for vai percorrer o n2
         for (int i = n1; i <= n2; i++) {
             System.out.println(i);
         }

@@ -15,7 +15,7 @@ public class Aula18 {
 
 		System.out.println("Entre com um limite");
 		int max = scan.nextInt();
-		//for é um loop e vai aumentar 1+1
+		//o for vai percorrer o max
 		for (int i=num; i<=max; i++){
 		//
 			System.out.println(i);

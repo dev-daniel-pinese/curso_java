@@ -10,6 +10,7 @@ public class Exercicio17 {
         System.out.println(num+ "! = " +num+ "");
 
         int fatorial =num;
+        //o for vai percorrer o 0
         for (int i= num; i>0; i--){
             fatorial *= i;
             System.out.println(i);

@@ -13,7 +13,7 @@ public class Exercicio15 {
         int proximo = 0;
         System.out.println(primeiro);
         System.out.println(segundo);
-
+        //while se o resultado for verdadeiro execulta o bloco
         while (proximo <= 500) {
             proximo = primeiro + segundo;
             primeiro = segundo;
